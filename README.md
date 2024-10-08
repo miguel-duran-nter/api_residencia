@@ -64,6 +64,60 @@ This project evaluates three key areas:
 3. **Backend Development with Django**: Weight - 5
 4. **Collaboration and Presentation**: Weight - 1
 
+## Install Virtual Enviorment
+
+### Go to directory repository
+
+```Bash
+cd API_Residencia/
+```
+
+### Create Virtual
+
+- **Linux**
+
+```Bash
+python3 -m venv .venv
+```
+
+- **Windows**
+```Cmd
+.venv\Scripts\activate
+```
+
+### Active Virtual Enviorment
+
+- **Linux**
+```Bash
+source .venv/bin/activate
+```
+
+- **Windows**
+
+```Cmd
+venv\Scripts\activate
+```
+
+### Install dependencies
+
+```python3
+pip install -r requeriments.txt
+```
+
+## Start server
+
+### Go to directory
+
+```Bash
+cd web_meca
+```
+
+### Run Django server
+
+```Python
+python3 manage.py runserver
+```
+
 ## Contact
 
 If you have any questions or need further clarification during the test, feel free to contact your assigned instructor.
